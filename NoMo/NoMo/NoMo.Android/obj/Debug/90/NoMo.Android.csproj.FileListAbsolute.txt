@@ -490,3 +490,4 @@ C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.Android\obj\Debug\90\stamp
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.Android\obj\Debug\90\res\drawable\capepeninsula.jpg

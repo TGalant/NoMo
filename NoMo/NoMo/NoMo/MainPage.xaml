@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Assignment7.MainPage">
+             x:Class="NoMo.MainPage">
 
     <StackLayout>
         <Frame BackgroundColor="#96989B" Padding="12" CornerRadius="0">
@@ -20,7 +20,7 @@
             </Grid.ColumnDefinitions>
             <BoxView Color="#96989B" />
             <Button Text="Police"
-                    Clicked="Button_Clicked"
+                    
                     TextColor="WhiteSmoke"
                     FontAttributes="Bold"
                     FontSize="Large"
@@ -33,7 +33,7 @@
             <Button Grid.Column="1"
                     BackgroundColor="#96989B"
                Text="Support Centres"
-                    Clicked="Button_Clicked_1"
+                    
                     TextColor="WhiteSmoke"
                     FontAttributes="Bold"
                     FontSize="Large"
@@ -45,7 +45,7 @@
             <Button Grid.Column="2"
                     BackgroundColor="#96989B"
                Text="Shelters"
-                    Clicked="Button_Clicked_2"
+                    
                     TextColor="WhiteSmoke"
                     FontAttributes="Bold"
                     FontSize="Large"
@@ -56,6 +56,7 @@
         </Grid>
 
         <StackLayout>
+            <Image Source="capepeninsula.jpg"/>
             <Frame BackgroundColor="#96989B">
                 <Label Text="Cape Peninsula Region " TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
             </Frame>

@@ -2,11 +2,13 @@
 
 namespace NoMo
 {
-    class MainPage
+    public partial class MainPage:ContentPage
     {
         public MainPage()
         {
-            
+            InitializeComponent();
+
+            Title = "Cape Peninsula";
         }
     }
 }
