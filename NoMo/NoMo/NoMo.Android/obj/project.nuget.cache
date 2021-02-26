@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x0oEPph1UDAaEOsvLF7Z7LhySk9pEAWa1EC/t7RLr47jqpfxAudgt1miFY+LlfIFhf9IHFaJME7agYx0twvWvQ==",
+  "dgSpecHash": "iXiaPqJHrSg9YlCJQRfGCT+XzXlyTy+JwzZY4vUnVrbVC1ghekWQDN5PeQhVbPxE1wfJ8vfXjFT7xHefpZBd+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.Android\\NoMo.Android.csproj",
+  "projectFilePath": "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.Android\\NoMo.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

@@ -1,6 +1,9 @@
 NoMo.Droid.MainActivity, NoMo.Android;crc648e844c0575fa37e5.MainActivity
 NoMo.Droid.MainActivity;crc648e844c0575fa37e5.MainActivity
 nomo.droid.MainActivity;crc648e844c0575fa37e5.MainActivity
+NoMo.Droid.SplashActivity, NoMo.Android;crc648e844c0575fa37e5.SplashActivity
+NoMo.Droid.SplashActivity;crc648e844c0575fa37e5.SplashActivity
+nomo.droid.SplashActivity;crc648e844c0575fa37e5.SplashActivity
 Android.Support.V4.View.AsyncLayoutInflater+IOnInflateFinishedListenerImplementor, Xamarin.Android.Support.AsyncLayoutInflater;mono.android.support.v4.view.AsyncLayoutInflater_OnInflateFinishedListenerImplementor
 Android.Support.V4.View.AsyncLayoutInflater.IOnInflateFinishedListenerImplementor;mono.android.support.v4.view.AsyncLayoutInflater_OnInflateFinishedListenerImplementor
 mono.android.support.v4.view.AsyncLayoutInflater_OnInflateFinishedListenerImplementor;mono.android.support.v4.view.AsyncLayoutInflater_OnInflateFinishedListenerImplementor

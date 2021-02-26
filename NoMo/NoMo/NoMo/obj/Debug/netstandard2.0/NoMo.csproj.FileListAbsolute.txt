@@ -12,3 +12,17 @@ C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\X
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.dll
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\ref\NoMo.dll
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.pdb
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\bin\Debug\netstandard2.0\NoMo.deps.json
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\bin\Debug\netstandard2.0\NoMo.dll
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\bin\Debug\netstandard2.0\ref\NoMo.dll
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\bin\Debug\netstandard2.0\NoMo.pdb
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\Test.xaml.g.cs
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.AssemblyInfoInputs.cache
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.AssemblyInfo.cs
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.csproj.CoreCompileInputs.cache
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.dll
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\ref\NoMo.dll
+C:\Users\Tegwen Galant\Documents\NoMo\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.pdb

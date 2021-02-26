@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj": {}
+    "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj": {
+    "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj",
         "projectName": "NoMo.iOS",
-        "projectPath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj",
-        "packagesPath": "C:\\Users\\Mikaela Gabriels\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj",
+        "packagesPath": "C:\\Users\\Tegwen Galant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mikaela Gabriels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tegwen Galant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj": {
-                "projectPath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj"
+              "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj": {
+                "projectPath": "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj": {
+    "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj",
+        "projectUniqueName": "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj",
         "projectName": "NoMo",
-        "projectPath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj",
-        "packagesPath": "C:\\Users\\Mikaela Gabriels\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo\\obj\\",
+        "projectPath": "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj",
+        "packagesPath": "C:\\Users\\Tegwen Galant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tegwen Galant\\Documents\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mikaela Gabriels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tegwen Galant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
