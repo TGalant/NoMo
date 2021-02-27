@@ -2,7 +2,6 @@ C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\bin\Debug\netstandard2.0\N
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\bin\Debug\netstandard2.0\NoMo.dll
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\bin\Debug\netstandard2.0\ref\NoMo.dll
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\bin\Debug\netstandard2.0\NoMo.pdb
-C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.csprojAssemblyReference.cache
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.AssemblyInfoInputs.cache
@@ -12,3 +11,4 @@ C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\X
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.dll
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\ref\NoMo.dll
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\NoMo.pdb
+C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo\obj\Debug\netstandard2.0\Test.xaml.g.cs
