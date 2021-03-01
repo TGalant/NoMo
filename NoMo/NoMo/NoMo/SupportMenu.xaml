@@ -1,32 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NoMo.SupportMenu">
-    <StackLayout>
+             x:Class="NoMo.SupportMenu" BackgroundColor="#96989B">
+    
 
         <StackLayout>
-            <Image Source="capepeninsula.jpg" HeightRequest="5" WidthRequest="5"/>
-            <Frame BackgroundColor="#96989B">
-                <Label Text="Cape Peninsula Region " TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            
+            <Image Source="capepeninsula.jpg" HeightRequest="40" WidthRequest="40"/>
+            <Frame>
+                <Label Text="Cape Peninsula" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
             </Frame>
 
-            <Frame BackgroundColor="#96989B">
+            <Image Source="capewinelands.jpg" HeightRequest="40" WidthRequest="40" />
+            <Frame>
                 <Label Text="Cape Winelands" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
             </Frame>
 
-            <Frame BackgroundColor="#96989B">
+            <Image Source="centralkaroo.jpg" HeightRequest="40" WidthRequest="40" />
+            <Frame>
                 <Label Text="Cantral Karoo" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
             </Frame>
 
-            <Frame BackgroundColor="#96989B">
+            <Image Source="gardenrouteandkleinkaroo.jpg" HeightRequest="40" WidthRequest="40" />
+            <Frame>
                 <Label Text="Garden Route and Klein Karoo"  TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
             </Frame>
 
-            <Frame BackgroundColor="#96989B">
+            <Image Source="overberg.jpg" HeightRequest="40" WidthRequest="40" />
+            <Frame>
                 <Label Text="Overberg" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
             </Frame>
 
-            <Frame BackgroundColor="#96989B">
+            <Image Source="westcoast.jpg" HeightRequest="40" WidthRequest="40" />
+            <Frame>
                 <Label Text="West Coast" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
             </Frame>
 
@@ -34,7 +40,7 @@
         </StackLayout>
 
 
-    </StackLayout>
+    
 
 </ContentPage>
   
