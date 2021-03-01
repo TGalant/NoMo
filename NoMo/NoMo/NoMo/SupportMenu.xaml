@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NoMo.SupportMenu">
+    <StackLayout>
+
+        <StackLayout>
+            <Image Source="capepeninsula.jpg" HeightRequest="5" WidthRequest="5"/>
+            <Frame BackgroundColor="#96989B">
+                <Label Text="Cape Peninsula Region " TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+            <Frame BackgroundColor="#96989B">
+                <Label Text="Cape Winelands" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+            <Frame BackgroundColor="#96989B">
+                <Label Text="Cantral Karoo" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+            <Frame BackgroundColor="#96989B">
+                <Label Text="Garden Route and Klein Karoo"  TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+            <Frame BackgroundColor="#96989B">
+                <Label Text="Overberg" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+            <Frame BackgroundColor="#96989B">
+                <Label Text="West Coast" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>
+  

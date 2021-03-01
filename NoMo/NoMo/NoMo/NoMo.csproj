@@ -16,7 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Test.xaml">
+    <EmbeddedResource Update="Awareness.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SupportMenu.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

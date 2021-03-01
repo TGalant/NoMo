@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NoMo.Awareness">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#96989B" Padding="12" CornerRadius="0">
+                <Label Text="Cape Peninsula" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

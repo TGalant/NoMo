@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMo.Android", "NoMo\NoMo.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMo.iOS", "NoMo\NoMo.iOS\NoMo.iOS.csproj", "{7DB7EA8E-7611-45C5-8D8A-B05F3F1244DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMo", "NoMo\NoMo\NoMo.csproj", "{FF6D7F05-497B-4AD6-95C4-D826052D1E1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoMo", "NoMo\NoMo\NoMo.csproj", "{FF6D7F05-497B-4AD6-95C4-D826052D1E1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
