@@ -15,7 +15,17 @@ namespace NoMo
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new Awareness());
+        }
+
+        private void Button_Clicked1(object sender, EventArgs e)
+        {
             Navigation.PushAsync(new SupportMenu());
+        }
+
+        private void Button_Clicked2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LegalEducation());
         }
     }
 

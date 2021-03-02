@@ -26,13 +26,13 @@
                 <Button Text="Support"
                         VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                    Clicked="Button_Clicked"
+                    Clicked="Button_Clicked1"
                      />
 
                 <Button Text="Legal Education"
                     VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                   Clicked="Button_Clicked"
+                   Clicked="Button_Clicked2"
                      />
             </FlexLayout>
         </ScrollView>
