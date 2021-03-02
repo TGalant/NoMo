@@ -1,10 +1,11 @@
 ﻿using Xamarin.Forms;
 
+
 namespace NoMo
 {
-    public partial class MotivationQuotes : ContentPage
+    public partial class MotivationalQuotes : ContentPage
     {
-        public MotivationQuotes()
+        public MotivationalQuotes()
         {
             InitializeComponent();
 

@@ -20,19 +20,37 @@
                         VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
                     Clicked="Button_Clicked"
-                     />
+                     BackgroundColor="#CC6666"
+                        Font="Bold "
+                        TextColor="WhiteSmoke"
+                        FontSize="Large"
+                        Padding="15" 
+                        CornerRadius="10"
+                        />
 
 
                 <Button Text="Support"
                         VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
                     Clicked="Button_Clicked1"
+                        BackgroundColor="#330099"
+                        Font="Bold"
+                        TextColor="WhiteSmoke"
+                        FontSize="Large"
+                        Padding="15" 
+                        CornerRadius="10"
                      />
 
                 <Button Text="Legal Education"
                     VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
                    Clicked="Button_Clicked2"
+                        BackgroundColor="#CC6666"
+                        Font="Bold "
+                        TextColor="WhiteSmoke"
+                        FontSize="Large"
+                        Padding="15" 
+                        CornerRadius="10"
                      />
             </FlexLayout>
         </ScrollView>
