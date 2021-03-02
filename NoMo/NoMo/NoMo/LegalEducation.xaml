@@ -4,6 +4,7 @@
              x:Class="NoMo.LegalEducation" Background="#96989B">
     
         <StackLayout>
+            
             <Frame>
                 <Label Text="Laws" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
             </Frame>
