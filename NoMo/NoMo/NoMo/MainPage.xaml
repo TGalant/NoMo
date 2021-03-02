@@ -2,32 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NoMo.MainPage" BackgroundColor="#96989B">
-    
+
+
     <NavigationPage.TitleView>
-        <Label Text ="NoMo" HorizontalOptions="Center" />
+        <Label Text ="NoMo" HorizontalOptions="Center" TextColor="White" FontSize="20" FontAttributes="Bold" />
     </NavigationPage.TitleView>
-    
+
     <ContentPage.Content>
-       
-    <ScrollView>
-        <FlexLayout Direction="Column"
+
+
+        <ScrollView>
+            <FlexLayout Direction="Column"
                     JustifyContent="SpaceEvenly"
                     AlignItems="Center">
 
                 <Button Text="Awareness"
-                    Command="{Binding NavigateCommand}"/>
+                        VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                    Clicked="Button_Clicked"
+                     />
 
 
                 <Button Text="Support"
+                        VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
                     Clicked="Button_Clicked"
                      />
-            
-            <Button Text="Legal Education"
-                    Command="{Binding NavigateCommand}"
-                     />
-             </FlexLayout>
-    </ScrollView>
 
-       
+                <Button Text="Legal Education"
+                    VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                   Clicked="Button_Clicked"
+                     />
+            </FlexLayout>
+        </ScrollView>
+
+
     </ContentPage.Content>
 </ContentPage>

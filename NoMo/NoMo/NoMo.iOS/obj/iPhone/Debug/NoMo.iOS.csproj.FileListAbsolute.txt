@@ -56,3 +56,13 @@ C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\NoMo.
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\NoMo.iOS.csproj.CopyComplete
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\NoMo.iOS.exe
 C:\Users\Mikaela Gabriels\Desktop\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\NoMo.iOS.pdb
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\optimized\
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\NoMo.iOS.csprojAssemblyReference.cache
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\NoMo.iOS.csproj.CoreCompileInputs.cache
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\NoMo.iOS.exe
+C:\1 Final Project\NoMo\NoMo\NoMo\NoMo\NoMo.iOS\obj\iPhone\Debug\NoMo.iOS.pdb
