@@ -2,45 +2,61 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NoMo.SupportMenu" BackgroundColor="#96989B">
-    
 
-        <StackLayout>
-            
-            <Image Source="capepeninsula.jpg" HeightRequest="40" WidthRequest="40"/>
-            <Frame>
+    
+    <StackLayout>
+
+        <Frame>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="capepeninsula.jpg" HeightRequest="40" WidthRequest="40"/>
                 <Label Text="Cape Peninsula" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
-            </Frame>
+            </StackLayout>
+        </Frame>
 
-            <Image Source="capewinelands.jpg" HeightRequest="40" WidthRequest="40" />
-            <Frame>
+
+        <Frame>
+           <StackLayout Orientation="Horizontal">
+                <Image Source="capewinelands.jpg" HeightRequest="40" WidthRequest="40" />
                 <Label Text="Cape Winelands" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
-            </Frame>
+            </StackLayout>
+        </Frame>
 
-            <Image Source="centralkaroo.jpg" HeightRequest="40" WidthRequest="40" />
-            <Frame>
+
+        <Frame>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="centralkaroo.jpg" HeightRequest="40" WidthRequest="40" />
                 <Label Text="Cantral Karoo" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
-            </Frame>
+            </StackLayout>
+        </Frame>
 
-            <Image Source="gardenrouteandkleinkaroo.jpg" HeightRequest="40" WidthRequest="40" />
-            <Frame>
+
+        <Frame>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="gardenrouteandkleinkaroo.jpg" HeightRequest="40" WidthRequest="40" />
                 <Label Text="Garden Route and Klein Karoo"  TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
-            </Frame>
+            </StackLayout>
+        </Frame>
 
-            <Image Source="overberg.jpg" HeightRequest="40" WidthRequest="40" />
-            <Frame>
+
+        <Frame>
+            <StackLayout Orientation="Horizontal">
+                 <Image Source="overberg.jpg" HeightRequest="40" WidthRequest="40" />
                 <Label Text="Overberg" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
-            </Frame>
+            </StackLayout>
+        </Frame>
 
-            <Image Source="westcoast.jpg" HeightRequest="40" WidthRequest="40" />
-            <Frame>
+
+        <Frame>
+            <StackLayout Orientation="Horizontal">
+                 <Image Source="westcoast.jpg" HeightRequest="40" WidthRequest="40" />
                 <Label Text="West Coast" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
-            </Frame>
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
 
 
-        </StackLayout>
 
-
-    
 
 </ContentPage>
   

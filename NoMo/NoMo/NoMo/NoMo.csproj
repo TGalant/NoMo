@@ -25,7 +25,7 @@
     <EmbeddedResource Update="LegalEducation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MotivationQuotes.xaml">
+    <EmbeddedResource Update="MotivationalQuotes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Protocol.xaml">
