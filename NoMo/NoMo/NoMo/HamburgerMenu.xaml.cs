@@ -1,17 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+
 
 namespace NoMo
 {
     public partial class HamburgerMenu : ContentPage
     {
-
         public HamburgerMenu()
         {
             var hamburgerMenuItems = new List<HamburgerMenuItem>
@@ -26,7 +21,7 @@ namespace NoMo
                     Title = "Support",
                     TargetType = typeof(SupportMenu)
                 }
- 
+
             };
 
             listView = new ListView
@@ -38,7 +33,7 @@ namespace NoMo
                     grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(30) });
                     grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Star });
 
-              
+
                     var label = new Label { VerticalOptions = LayoutOptions.FillAndExpand };
                     label.SetBinding(Label.TextProperty, "Title");
 
@@ -49,13 +44,14 @@ namespace NoMo
                 SeparatorVisibility = SeparatorVisibility.None
             };
 
-            IconImageSource = "logo.jpg";
+            IconImageSource = "hamburgermenu.png";
             Title = "NoMo";
             Padding = new Thickness(0, 40, 0, 0);
             Content = new StackLayout
             {
                 Children = { listView }
             };
+
         }
     }
 
@@ -64,4 +60,5 @@ namespace NoMo
         public string Title { get; internal set; }
         public Type TargetType { get; internal set; }
     }
+
 }

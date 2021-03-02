@@ -7,7 +7,7 @@
              Title="NoMo">
     <StackLayout>
         <ListView x:Name="listView" x:FieldModifier="public">
-           
+
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -24,4 +24,6 @@
             </ListView.ItemTemplate>
         </ListView>
     </StackLayout>
-</ContentPage>
+</ContentPage >
+
+    
