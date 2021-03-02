@@ -981,24 +981,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tegwen Galant\\.nuget\\packages\\": {},
+    "C:\\Users\\Mikaela Gabriels\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Final Project\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj",
       "projectName": "NoMo.iOS",
-      "projectPath": "C:\\1 Final Project\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj",
-      "packagesPath": "C:\\Users\\Tegwen Galant\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Final Project\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\NoMo.iOS.csproj",
+      "packagesPath": "C:\\Users\\Mikaela Gabriels\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tegwen Galant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mikaela Gabriels\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1012,8 +1012,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\1 Final Project\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj": {
-              "projectPath": "C:\\1 Final Project\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj"
+            "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj": {
+              "projectPath": "C:\\Users\\Mikaela Gabriels\\Desktop\\NoMo\\NoMo\\NoMo\\NoMo\\NoMo.csproj"
             }
           }
         }
