@@ -20,8 +20,17 @@ namespace NoMo
                 {
                     Title = "Support",
                     TargetType = typeof(SupportMenu)
+                },
+                new HamburgerMenuItem
+                {
+                    Title = "Legal Education",
+                    TargetType = typeof(LegalEducation)
+                },
+                new HamburgerMenuItem
+                {
+                    Title = "Motivational Quotes",
+                    TargetType = typeof(MotivationalQuotes)
                 }
-
             };
 
             listView = new ListView
