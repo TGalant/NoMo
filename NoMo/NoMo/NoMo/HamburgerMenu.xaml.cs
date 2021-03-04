@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace NoMo
 {
-    public partial class HamburgerMenu : ContentPage
+    public partial class HamburgerMenu : MainPage
     {
         public HamburgerMenu()
         {
@@ -53,14 +53,15 @@ namespace NoMo
                 SeparatorVisibility = SeparatorVisibility.None
             };
 
-            IconImageSource = "hamburgermenu.png";
-            Title = "NoMo";
-            Padding = new Thickness(0, 40, 0, 0);
-            Content = new StackLayout
-            {
-                Children = { listView }
-            };
+        }
 
+        public HamburgerMenu(ListView listView, FlyoutPage NoMo)
+        {
+            this.listView = listView;
+        }
+
+        internal class MainPage : Page
+        {
         }
     }
 

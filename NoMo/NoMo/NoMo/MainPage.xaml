@@ -52,6 +52,7 @@
                         Padding="15" 
                         CornerRadius="10"
                      />
+                
             </FlexLayout>
         </ScrollView>
 

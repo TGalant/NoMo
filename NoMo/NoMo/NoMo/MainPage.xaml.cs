@@ -13,6 +13,8 @@ namespace NoMo
             Title = "NoMo";
         }
 
+        public new string Title { get; }
+
         private void Button_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Awareness());
@@ -28,5 +30,8 @@ namespace NoMo
             Navigation.PushAsync(new LegalEducation());
         }
     }
-
+    
 }
+    
+
+
