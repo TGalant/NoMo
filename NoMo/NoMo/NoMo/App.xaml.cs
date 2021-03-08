@@ -6,9 +6,9 @@ namespace NoMo
     {
         public App()
         {
+            InitializeComponent();
 
-            MainPage = new HamburgerMenu.MainPage();
-
+            MainPage = new MainPageFly;
         }
 
         protected override void OnStart()

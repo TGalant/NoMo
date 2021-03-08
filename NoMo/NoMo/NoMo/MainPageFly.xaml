@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local1="clr-namespace:NoMo"
-             x:Class="NoMo.HamburgerMenu" BackgroundColor="White"
+             xmlns:local="clr-namespace:NoMo"
+             x:Class="FlyoutPageNavigation.MainPageFly" BackgroundColor="White"
              Padding="0,40,0,0"
              IconImageSource="logo.jpg"
              Title="NoMo">
+
     <StackLayout>
         <ListView x:Name="listView" x:FieldModifier="public">
             <ListView.ItemsSource>
-                <x:Array Type="{x:Type local:FlyoutPageItem}">
-                    <local1:HamburgerMenuItem Title="Awareness" TargetType="{x:Type local:Awareness}" />
-                    <local1:HamburgerMenuItem Title="Support" TargetType="{x:Type local:SupportMenu}" />
-                    <local1:HamburgerMenuItem Title="LegalEducation" TargetType="{x:Type local:LegalEducation}" />
-                    <local1:HamburgerMenuItem Title="MotivationalQuotes" TargetType="{x:Type local:MotivationalQuotes}" />
+                <x:Array Type="{x:Type local:MainPageFly}">
+                    <local:MainPageFly Title="Awareness" TargetType="{x:Type local:Awareness}" />
+                    <local:MainPageFly  Title="Support" TargetType="{x:Type local:SupportMenu}" />
+                    <local:MainPageFly Title="LegalEducation" TargetType="{x:Type local:LegalEducation}" />
+                    <local:MainPageFly Title="MotivationalQuotes" TargetType="{x:Type local:MotivationalQuotes}" />
                 </x:Array>
             </ListView.ItemsSource>
 
