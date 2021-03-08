@@ -7,7 +7,7 @@ namespace NoMo
         public App()
         {
 
-            MainPage = new HamburgerMenu.MainPage();
+            MainPage = new MainPage();
 
         }
 
