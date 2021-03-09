@@ -1,30 +1,26 @@
-﻿using System;
+﻿
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
 
 
 namespace NoMo
 {
     public partial class NoMoFlyout : FlyoutPage
     {
-        public NoMoFlyout()
+
+
+       public NoMoFlyout()
         {
-
-
-            MainPageFly.ListView.ItemSelected += OnItemSelected;
-
             
+                InitializeComponent();
+
+                
         }
 
-        void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            var item = e.SelectedItem as MainPageFly;
-            if (item != null)
-            {
-                Detail = new NavigationPage((Page)Activator.CreateInstance((Type)item.TargetType));
-               MainPageFly.ListView.SelectedItem = null;
-                IsPresented = false;
-            }
-        }
+        
     }
 }
+  
+
  

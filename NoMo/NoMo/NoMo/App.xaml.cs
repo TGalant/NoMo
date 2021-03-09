@@ -8,7 +8,7 @@ namespace NoMo
         {
             InitializeComponent();
 
-            MainPage = new MainPageFly;
+            MainPage = new NoMoFlyout();
         }
 
         protected override void OnStart()
