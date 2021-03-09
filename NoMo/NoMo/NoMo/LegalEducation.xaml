@@ -6,11 +6,19 @@
         <StackLayout>
             
             <Frame>
-                <Label Text="Laws" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
-            </Frame>
+            <Label Text="Laws" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large">
+                <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="TapRecognizer_One"/>
+            </Label.GestureRecognizers>
+                </Label>
+        </Frame>
 
         <Frame>
-            <Label Text="Protocol" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            <Label Text="Protocol" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapRecognizer_Two"/>
+                </Label.GestureRecognizers>
+            </Label>
         </Frame>
 
     </StackLayout>

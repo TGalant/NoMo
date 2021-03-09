@@ -9,7 +9,12 @@
         <Frame>
             <StackLayout Orientation="Horizontal">
                 <Image Source="capepeninsula.jpg" HeightRequest="40" WidthRequest="40"/>
-                <Label Text="Cape Peninsula" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+                <Label Text="Cape Peninsula" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large">
+                   <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                   </Label.GestureRecognizers>
+                </Label>
+
             </StackLayout>
         </Frame>
 
