@@ -6,9 +6,9 @@ namespace NoMo
     {
         public App()
         {
+            InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
-
+            MainPage = new NoMoFlyout();
         }
 
         protected override void OnStart()
