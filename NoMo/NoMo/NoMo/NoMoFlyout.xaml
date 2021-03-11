@@ -8,24 +8,33 @@
         <ContentPage Title="NoMo" Icon="hamburger.png">
 
             <StackLayout>
-                <Image HeightRequest="80" Source="uwclogo.png"/>
-                <ListView ItemsSource="{Binding MenuItems}" HasUnevenRows="True" SelectionMode="None">
+                <Image HeightRequest="80" Source="flyoutmenu.png"/>
+                <ListView ItemsSource="{Binding MenuItems}" HasUnevenRows="True" SelectionMode="Single">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="80"/>
-                                    <ColumnDefinition Width="*" />
-                                </Grid.ColumnDefinitions>
+                                <Grid>
 
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="20"/>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="20"/>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="20"/>
                                     </Grid.RowDefinitions>
-                            </Grid>
-                        </ViewCell>
+                                    <Label Margin="15,0,0,0" Text="{Binding MenuItemName}"  Grid.Column="1" Grid.Row="1" FontSize="Medium"/>
+
+                                </Grid>
+
+                            </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
                     
@@ -33,8 +42,8 @@
             </StackLayout>
         </ContentPage >
         </FlyoutPage.Flyout>
-        <FlyoutPage.Detail>
-            <NavigationPage>
+    <FlyoutPage.Detail>
+        <NavigationPage>
       <x:Arguments>
         <local:MainPage/>
       </x:Arguments>

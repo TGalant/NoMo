@@ -4,7 +4,15 @@
              x:Class="NoMo.MotivationalQuotes" Background="#96989B">
     <ContentPage.Content>
         <StackLayout>
-           
+            <Label Text="Qoute of the day!"
+               FontSize="50"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+            <ImageButton Source="MQ1.jpg"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

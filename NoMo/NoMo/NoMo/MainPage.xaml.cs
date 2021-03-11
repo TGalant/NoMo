@@ -12,24 +12,6 @@ namespace NoMo
             Title = "NoMo";
         }
 
-        public new string Title { get; }
-
-        private async System.Threading.Tasks.Task Button_ClickedAsync(object sender, EventArgs e)
-        {
-           await Navigation.PushAsync(new Awareness());
-        }
-
-        private async System.Threading.Tasks.Task Button_Clicked_1Async(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new SupportMenu());
-        }
-
-
-        private async System.Threading.Tasks.Task Button_Clicked_2Async(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new LegalEducation());
-        }
-
         private void Button_Clicked(object sender, EventArgs e)
         {
 
@@ -44,11 +26,9 @@ namespace NoMo
         {
 
         }
-
-       
     }
-
 }
-    
+
+
 
 
