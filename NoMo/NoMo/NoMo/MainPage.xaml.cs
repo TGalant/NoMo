@@ -12,29 +12,23 @@ namespace NoMo
             Title = "NoMo";
         }
 
-        public new string Title { get; }
-
-        private async void AwarenessClicked(object sender, EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
-           await Navigation.PushAsync(new Awareness());
+
         }
 
-        private async void SupportClicked(object sender, EventArgs e)
+        private void Button_Clicked_1(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SupportMenu());
+
         }
 
-
-        private async void LegalEducationClicked(object sender, EventArgs e)
+        private void Button_Clicked_2(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LegalEducation());
+
         }
-
-
-       
     }
-
 }
-    
+
+
 
 
