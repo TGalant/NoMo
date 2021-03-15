@@ -11,6 +11,8 @@ namespace NoMo
             MainPage = new NoMoFlyout();
         }
 
+            
+
         protected override void OnStart()
         {
         }
@@ -22,5 +24,8 @@ namespace NoMo
         protected override void OnResume()
         {
         }
+
+
+       
     }
 }
