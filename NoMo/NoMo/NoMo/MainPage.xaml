@@ -5,7 +5,7 @@
 
 
     <NavigationPage.TitleView>
-        <Label Text ="NoMo" HorizontalOptions="Center" TextColor="White" FontSize="20" FontAttributes="Bold" />
+        <Label Text ="NoMo" HorizontalOptions="Center" TextColor="White" FontSize="20" FontAttributes="Bold"/>
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
