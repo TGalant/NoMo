@@ -12,6 +12,10 @@ namespace NoMo
             InitializeComponent();
 
             Title = "Awareness";
+
+
         }
     }
-}
+
+    
+ }
