@@ -1,9 +1,10 @@
-﻿using System;
+﻿using NoMo.Enums.Security;
+using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
-
+using System.Runtime.CompilerServices;
+using System.ComponentModel;
 
 namespace NoMo
 {
@@ -19,17 +20,20 @@ namespace NoMo
 
         internal class MenuItem
         {
-            public object MenuType { get; internal set; }
+            
             public object TargetType { get; internal set; }
             public int MenuItemId { get; internal set; }
             public string MenuItemName { get; internal set; }
             public int MenuOrder { get; internal set; }
+            public MenuTypeEnum MenuType { get; set; }
         }
 
         internal object GetAllowedAccessItems()
         {
             throw new NotImplementedException();
         }
+
+        
     }
 
 

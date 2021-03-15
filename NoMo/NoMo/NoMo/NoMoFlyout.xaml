@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:NoMo" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:NoMo" x:DataType="local:FakeSecurityService"
             x:Class="NoMo.NoMoFlyout">
     
     <FlyoutPage.Flyout>
 
         <ContentPage Title="NoMo" Icon="hamburger.png">
-
+            
             <StackLayout>
                 <Image HeightRequest="80" Source="flyoutmenu.png"/>
                 <ListView ItemsSource="{Binding MenuItems}" HasUnevenRows="True" SelectionMode="Single">
@@ -30,7 +30,7 @@
                                         <RowDefinition Height="*"/>
                                         <RowDefinition Height="20"/>
                                     </Grid.RowDefinitions>
-                                    <Label Margin="15,0,0,0" Text="{Binding MenuItemName}"  Grid.Column="1" Grid.Row="1" FontSize="Medium"/>
+                                    <Label x:DataType="local:FakeSecurityService" Margin="15,0,0,0" Text="{Binding MenuItemName}"  Grid.Column="1" Grid.Row="1" FontSize="Medium"/>
 
                                 </Grid>
 
