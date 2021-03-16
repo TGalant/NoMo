@@ -5,9 +5,18 @@
     <ContentPage.Content>
         <StackLayout>
             <WebView HeightRequest="500" VerticalOptions="StartAndExpand" 
-                     Source="">
-
+                     Source="http://gbv1.azurewebsites.net/2021/03/16/pledge/">
             </WebView>
+            <Button Text="Submit"
+                        VerticalOptions="Center"
+                HorizontalOptions="Center"
+                     BackgroundColor="#96989B"
+                        Font="Bold "
+                        TextColor="WhiteSmoke"
+                        FontSize="Medium"
+                        Padding="15" 
+                        CornerRadius="10"
+                        />
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>
+</ContentPage> 
