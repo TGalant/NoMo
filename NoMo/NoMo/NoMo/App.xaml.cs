@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using FlyoutMenuExample.Services;
+using FlyoutMenuExample.Services.Interfaces;
+using Xamarin.Forms;
 
 namespace NoMo
 {
@@ -7,6 +9,8 @@ namespace NoMo
         public App()
         {
             InitializeComponent();
+            var service = new FakeSecurityService();
+            DependencyService.RegisterSingleton<ISecurityService>(service);
 
             MainPage = new NoMoFlyout();
         }

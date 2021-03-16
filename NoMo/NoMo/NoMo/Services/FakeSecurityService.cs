@@ -1,32 +1,33 @@
-﻿
+﻿using FlyoutMenuExample.Enums.Security;
+using FlyoutMenuExample.Messages.Security;
+using FlyoutMenuExample.Models.Security;
+using FlyoutMenuExample.Services;
+using FlyoutMenuExample.Services.Interfaces;
+using NoMo;
 using System.Collections.Generic;
 using System.Linq;
 using Xamarin.Forms;
-using NoMo.Enums.Security;
-using System.Runtime.CompilerServices;
-using System.ComponentModel;
-using System;
 
-namespace NoMo
+namespace FlyoutMenuExample.Services
 {
-    public class FakeSecurityService : FlyoutPage
+    public class FakeSecurityService : ISecurityService
     {
-        private List<NoMoFlyout.MenuItem> _menuItems;
+        public IList<Models.Security.MenuItem> _allMenuItems;
+
         public bool LoggedIn { get; set; }
-        
 
         public FakeSecurityService()
         {
             CreateMenuItems();
         }
 
-        private List<NoMoFlyout.MenuItem> GetAllowedAccessItems()
+        public IList<Models.Security.MenuItem> GetAllowedAccessItems()
         {
             if (LoggedIn)
             {
-                var accessItems = new List<NoMoFlyout.MenuItem>();
+                var accessItems = new List<FlyoutMenuExample.Models.Security.MenuItem>();
 
-                foreach (var item in _menuItems)
+                foreach (var item in _allMenuItems)
                 {
                     if (item.MenuType == MenuTypeEnum.Secured || item.MenuType == MenuTypeEnum.UnSecured || item.MenuType == MenuTypeEnum.LogOut)
                     {
@@ -38,9 +39,9 @@ namespace NoMo
             }
             else
             {
-                var accessItems = new List<NoMoFlyout.MenuItem>();
+                var accessItems = new List<Models.Security.MenuItem>();
 
-                foreach (var item in _menuItems)
+                foreach (var item in _allMenuItems)
                 {
                     if (item.MenuType == MenuTypeEnum.UnSecured || item.MenuType == MenuTypeEnum.Login)
                     {
@@ -51,7 +52,8 @@ namespace NoMo
                 return accessItems.OrderBy(x => x.MenuOrder).ToList();
             }
         }
-        public bool LogIn()
+
+        public bool LogIn(string userName, string password)
         {
             // Do Your Stuff to Check if Legit (ie API Calls)
 
@@ -63,14 +65,14 @@ namespace NoMo
         public void LogOut()
         {
             LoggedIn = false;
-            
+            MessagingCenter.Send<LogOutMessage>(new LogOutMessage(), "Logout");
         }
 
         private void CreateMenuItems()
         {
-            _menuItems = new List<NoMoFlyout.MenuItem>();
+            _allMenuItems = new List<FlyoutMenuExample.Models.Security.MenuItem>();
 
-            var menuItem = new NoMoFlyout.MenuItem();
+            var menuItem = new FlyoutMenuExample.Models.Security.MenuItem();
             menuItem.MenuItemId = 1;
             menuItem.MenuItemName = "Awareness";
             menuItem.TargetType = typeof(Awareness);
@@ -78,9 +80,9 @@ namespace NoMo
             menuItem.MenuOrder = 1;
 
 
-            _menuItems.Add(menuItem);
+            _allMenuItems.Add(menuItem);
 
-            menuItem = new NoMoFlyout.MenuItem();
+            menuItem = new FlyoutMenuExample.Models.Security.MenuItem();
             menuItem.MenuItemId = 2;
             menuItem.MenuItemName = "Support";
             menuItem.TargetType = typeof(SupportMenu);
@@ -88,9 +90,9 @@ namespace NoMo
             menuItem.MenuOrder = 2;
 
 
-            _menuItems.Add(menuItem);
+            _allMenuItems.Add(menuItem);
 
-            menuItem = new NoMoFlyout.MenuItem();
+            menuItem = new FlyoutMenuExample.Models.Security.MenuItem();
             menuItem.MenuItemId = 3;
             menuItem.MenuItemName = "Legal Education";
             menuItem.TargetType = typeof(LegalEducation);
@@ -98,62 +100,34 @@ namespace NoMo
             menuItem.MenuOrder = 3;
 
 
-            _menuItems.Add(menuItem);
+            _allMenuItems.Add(menuItem);
 
-            menuItem = new NoMoFlyout.MenuItem();
+            menuItem = new FlyoutMenuExample.Models.Security.MenuItem();
             menuItem.MenuItemId = 4;
             menuItem.MenuItemName = "Motivational Quote";
             menuItem.TargetType = typeof(MotivationalQuotes);
             menuItem.MenuType = MenuTypeEnum.UnSecured;
             menuItem.MenuOrder = 4;
 
-            _menuItems.Add(menuItem);
+            _allMenuItems.Add(menuItem);
 
-            menuItem = new NoMoFlyout.MenuItem();
+            menuItem = new FlyoutMenuExample.Models.Security.MenuItem();
             menuItem.MenuItemId = 5;
             menuItem.MenuItemName = "Testimonials";
             menuItem.TargetType = typeof(Testimonials);
             menuItem.MenuType = MenuTypeEnum.UnSecured;
             menuItem.MenuOrder = 5;
 
-            _menuItems.Add(menuItem);
+            _allMenuItems.Add(menuItem);
 
-            menuItem = new NoMoFlyout.MenuItem();
+            menuItem = new FlyoutMenuExample.Models.Security.MenuItem();
             menuItem.MenuItemId = 6;
             menuItem.MenuItemName = "Pledge";
             menuItem.TargetType = typeof(Pledge);
             menuItem.MenuType = MenuTypeEnum.UnSecured;
             menuItem.MenuOrder = 6;
+
+            _allMenuItems.Add(menuItem);
         }
-
-        private bool SetProperty<T>(ref T field, T newValue, [CallerMemberName] string propertyName = null)
-        {
-            if (!Equals(field, newValue))
-            {
-                field = newValue;
-                propertyChanged(this, new PropertyChangedEventArgs(propertyName));
-                return true;
-            }
-
-            return false;
-        }
-
-        private void propertyChanged(FakeSecurityService fakeSecurityService, PropertyChangedEventArgs propertyChangedEventArgs)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void propertyChanged(NoMoFlyout noMoFlyout, PropertyChangedEventArgs propertyChangedEventArgs)
-        {
-            throw new NotImplementedException();
-        }
-
-        private System.Collections.IEnumerable menuItems;
-
-        public System.Collections.IEnumerable MenuItems { get => menuItems; set => SetProperty(ref menuItems, value); }
-
-        private string menuItemName;
-
-        public string MenuItemName { get => menuItemName; set => SetProperty(ref menuItemName, value); }
     }
 }

@@ -9,8 +9,7 @@
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
-
-
+                    
         <ScrollView>
             <FlexLayout Direction="Column"
                     JustifyContent="SpaceEvenly"
