@@ -18,21 +18,9 @@ namespace NoMo
             BindingContext = new FlyoutPageViewModel(Navigation);
         }
 
-        internal class MenuItem
-        {
-            
-            public object TargetType { get; internal set; }
-            public int MenuItemId { get; internal set; }
-            public string MenuItemName { get; internal set; }
-            public int MenuOrder { get; internal set; }
-            public MenuTypeEnum MenuType { get; set; }
-        }
+        
 
-        internal object GetAllowedAccessItems()
-        {
-            throw new NotImplementedException();
-        }
-
+        
         
     }
 

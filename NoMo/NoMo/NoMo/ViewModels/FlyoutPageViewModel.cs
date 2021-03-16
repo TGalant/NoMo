@@ -3,21 +3,21 @@ using Xamarin.Forms;
 using System.Windows.Input;
 using System;
 using NoMo.Enums.Security;
-
+using FlyoutMenuExample.Services.Interfaces;
 
 namespace NoMo
 {
-    public class FlyoutPageViewModel : FlyoutPage
+    public class FlyoutPageViewModel : BaseViewModel
     {
+        private ISecurityService _securityService;
 
         public ICommand NavigateCommand { get; private set; }
 
-        private ObservableCollection<NoMoFlyout.MenuItem> _menuItems;
-        private INavigation navigation;
+        private ObservableCollection<FlyoutMenuExample.Models.Security.MenuItem> _menuItems;
 
         
 
-        private ObservableCollection<NoMoFlyout.MenuItem> MenuItems
+        public ObservableCollection<FlyoutMenuExample.Models.Security.MenuItem> MenuItems
         {
             get { return _menuItems; }
             set {
@@ -25,33 +25,31 @@ namespace NoMo
                 OnPropertyChanged(); }
         }
 
-        
 
-        public FlyoutPageViewModel(INavigation navigation, NoMoFlyout _menuItems) 
+
+        public FlyoutPageViewModel(INavigation navigation) : base(navigation)
         {
-            _menuItems = DependencyService.Get<NoMoFlyout>();
+            _securityService = DependencyService.Get<ISecurityService>();
 
-            NavigateCommand = new Command<NoMoFlyout.MenuItem>(ExecuteNavigateCommand);
+            NavigateCommand = new Command<FlyoutMenuExample.Models.Security.MenuItem>(ExecuteNavigateCommand);
 
-            var items = _menuItems.GetAllowedAccessItems();
-            MenuItems = new ObservableCollection<NoMoFlyout.MenuItem>((System.Collections.Generic.List<NoMoFlyout.MenuItem>)items);
+            var items = _securityService.GetAllowedAccessItems();
+            MenuItems = new ObservableCollection<FlyoutMenuExample.Models.Security.MenuItem>((System.Collections.Generic.List<FlyoutMenuExample.Models.Security.MenuItem>)items);
             
             
         }
 
-        public FlyoutPageViewModel(INavigation navigation)
-        {
-            this.navigation = navigation;
-        }
 
-        private void ExecuteNavigateCommand(NoMoFlyout.MenuItem menuItem)
+        private void ExecuteNavigateCommand(FlyoutMenuExample.Models.Security.MenuItem menuItem)
         {
            
             {
                 var mainPage = App.Current.MainPage as FlyoutPage;
                 if (mainPage != null)
                 {
-                    mainPage.Detail = new NavigationPage((Page)Activator.CreateInstance((Type)menuItem.TargetType));
+                    var navPage = new NavigationPage((Page)Activator.CreateInstance((Type)menuItem.TargetType));
+                    navPage.BarBackgroundColor = Color.FromHex("96989B");
+                    mainPage.Detail = navPage; 
                     mainPage.IsPresented = false;
                 }
             }
