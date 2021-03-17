@@ -7,6 +7,7 @@
             <WebView HeightRequest="500" VerticalOptions="StartAndExpand" 
                      Source="http://gbv1.azurewebsites.net/2021/03/16/pledge/">
             </WebView>
+          
             <Button Text="Submit"
                         VerticalOptions="Center"
                 HorizontalOptions="Center"
