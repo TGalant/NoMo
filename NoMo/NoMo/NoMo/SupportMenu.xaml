@@ -14,7 +14,6 @@
                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
                    </Label.GestureRecognizers>
                 </Label>
-
             </StackLayout>
         </Frame>
 
@@ -22,15 +21,24 @@
         <Frame>
            <StackLayout Orientation="Horizontal">
                 <Image Source="capewinelands.jpg" HeightRequest="40" WidthRequest="40" />
-                <Label Text="Cape Winelands" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
-            </StackLayout>
-        </Frame>
+                <Label Text="Cape Winelands" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large">
+
+                         <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                         </Label.GestureRecognizers>
+                </Label>
+           </StackLayout>
+       </Frame>
 
 
         <Frame>
             <StackLayout Orientation="Horizontal">
                 <Image Source="centralkaroo.jpg" HeightRequest="40" WidthRequest="40" />
-                <Label Text="Cantral Karoo" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+                <Label Text="Cantral Karoo" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large">
+                    <Label.GestureRecognizers>
+                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                    </Label.GestureRecognizers>
+                </Label>
             </StackLayout>
         </Frame>
 
@@ -38,7 +46,11 @@
         <Frame>
             <StackLayout Orientation="Horizontal">
                 <Image Source="gardenrouteandkleinkaroo.jpg" HeightRequest="40" WidthRequest="40" />
-                <Label Text="Garden Route and Klein Karoo"  TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+                <Label Text="Garden Route and Klein Karoo"  TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
+                </Label.GestureRecognizers>
+                </Label>
             </StackLayout>
         </Frame>
 
@@ -46,7 +58,11 @@
         <Frame>
             <StackLayout Orientation="Horizontal">
                  <Image Source="overberg.jpg" HeightRequest="40" WidthRequest="40" />
-                <Label Text="Overberg" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+                <Label Text="Overberg" TextColor="#CC6666" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
+                    </Label.GestureRecognizers>
+                </Label>
             </StackLayout>
         </Frame>
 
@@ -54,7 +70,11 @@
         <Frame>
             <StackLayout Orientation="Horizontal">
                  <Image Source="westcoast.jpg" HeightRequest="40" WidthRequest="40" />
-                <Label Text="West Coast" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+                <Label Text="West Coast" TextColor="#330099" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"/>
+                    </Label.GestureRecognizers>
+                </Label>
             </StackLayout>
         </Frame>
 

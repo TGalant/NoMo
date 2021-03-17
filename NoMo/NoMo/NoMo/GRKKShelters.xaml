@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NoMo.CapePeninsulaShelters"> 
+             x:Class="NoMo.GRKKShelters">
     <ContentPage.Content>
         <StackLayout>
             <WebView HeightRequest="500" VerticalOptions="StartAndExpand" 
-                     Source="http://gbv1.azurewebsites.net/2021/02/15/cape-peninsula-shelters/">
+                     Source="http://gbv1.azurewebsites.net/2021/02/15/garden-route-and-klein-karoo-shelters/">
             </WebView>
         </StackLayout>
     </ContentPage.Content>
