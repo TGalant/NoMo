@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NoMo.WestCoastPolice">
     <ContentPage.Content>
-        <StackLayout>
-            <WebView HeightRequest="500" VerticalOptions="StartAndExpand" 
+        <StackLayout VerticalOptions="FillAndExpand">
+            <WebView VerticalOptions="FillAndExpand"  
                      Source="http://gbv1.azurewebsites.net/2021/02/15/west-coast-police/">
             </WebView>
         </StackLayout>

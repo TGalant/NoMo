@@ -4,8 +4,8 @@
              x:Class="NoMo.Awareness">
     
     <ContentPage.Content>
-        <StackLayout>
-            <WebView HeightRequest="500" VerticalOptions="StartAndExpand" 
+        <StackLayout VerticalOptions="FillAndExpand"> 
+            <WebView VerticalOptions="FillAndExpand" 
                      Source="http://gbv1.azurewebsites.net/2021/03/04/general-information-awareness/">
                 
             </WebView>
