@@ -128,6 +128,14 @@ namespace FlyoutMenuExample.Services
             menuItem.MenuOrder = 6;
 
             _allMenuItems.Add(menuItem);
+
+            menuItem = new FlyoutMenuExample.Models.Security.MenuItem();
+            menuItem.MenuItemId = 7;
+            menuItem.MenuItemName = "Version 1.0";
+            menuItem.MenuType = MenuTypeEnum.UnSecured;
+            menuItem.MenuOrder = 7;
+
+            _allMenuItems.Add(menuItem);
         }
     }
 }
