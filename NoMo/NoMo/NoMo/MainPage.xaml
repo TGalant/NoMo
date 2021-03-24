@@ -17,8 +17,7 @@
                     AlignItems="Center">
 
                 <Button Text="Awareness"
-                        VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
+                        
                    Clicked="Button_Clicked"
                      BackgroundColor="#CC6666"
                         Font="Bold "
@@ -30,8 +29,7 @@
 
 
                 <Button Text="Support"
-                        VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
+                        
                    Clicked="Button_Clicked_1"
                         BackgroundColor="#330099"
                         Font="Bold"
@@ -42,8 +40,7 @@
                      />
 
                 <Button Text="Legal Education"
-                    VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
+                    
                   Clicked="Button_Clicked_2"
                         BackgroundColor="#CC6666"
                         Font="Bold "

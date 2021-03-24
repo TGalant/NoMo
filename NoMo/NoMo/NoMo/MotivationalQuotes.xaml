@@ -6,13 +6,13 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="
-                   Quote of the day!"
-               FontSize="60"
+                        Quote of the day!"
+               FontSize="50"
                FontAttributes="Bold" 
                    HorizontalTextAlignment="Center"
-                   TextColor="#CC6666"/>
+                   TextColor="#330099"/>
 
-            <ImageButton Source="MQ1.jpg"
+            <ImageButton Source="MotivationalQuote.png"
                          HorizontalOptions="FillAndExpand"
                          VerticalOptions="FillAndExpand"
                          BackgroundColor="White"/>
